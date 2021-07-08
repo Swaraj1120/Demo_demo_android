@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.vallabhjoshi.demo_demo_android.MainActivity;
 import com.vallabhjoshi.demo_demo_android.R;
+import com.vallabhjoshi.demo_demo_android.UI.Audio.AudioService.BlankFragment;
 import com.vallabhjoshi.demo_demo_android.UI.Audio.Song_Fragment;
 
 public class Song_List_Fragment_Custom_Adapter extends RecyclerView.Adapter<Song_List_Fragment_Custom_Adapter.ViewHolder> {
@@ -81,9 +82,10 @@ titleOfSong = view.findViewById(R.id.title_of_song);
         viewHolder.getTextView().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Song_Fragment mSongFragment = new Song_Fragment();
+//                Song_Fragment mSongFragment = new Song_Fragment();
+                BlankFragment blankFragment = new BlankFragment();
                 FragmentManager fragmentManager = ((MainActivity)mSong_List_Fragment_Custom_Adapter).getSupportFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.windowFrame,mSongFragment).commit();;
+                fragmentManager.beginTransaction().replace(R.id.windowFrame,blankFragment).commit();;
             }
         });
 //        fragmentManager.beginTransaction().add(R.id.windowFrame, mSlidingPanelFragment).commit();
