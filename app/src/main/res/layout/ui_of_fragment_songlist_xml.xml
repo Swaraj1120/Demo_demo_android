@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="25dp"
+    >
+
+<!--    <ImageView-->
+<!--        android:id="@+id/video_icon"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:src="@drawable/ic_baseline_arrow_downward_24" />-->
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/duration_of_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="12.44"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/title_of_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="200dp"
+            android:text="Dhanayawad"
+            android:fontFamily="@font/roboto_medium_numbers"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/ic_baseline_bar_chart_24"-->
+<!--        android:layout_toLeftOf="@id/moreoptions"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:id="@+id/musicplay_animation"-->
+<!--        android:visibility="gone"-->
+<!--        />-->
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/favorite"-->
+<!--        android:layout_toLeftOf="@id/moreoptions"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:id="@+id/favorite"-->
+<!--        android:visibility="gone"-->
+<!--        />-->
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:id="@+id/moreoptions"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:src="@drawable/ic_baseline_more_vert_24" />-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/linearlayout"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/darker_gray" />
+
+</RelativeLayout>
