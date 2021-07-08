@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        app:labelVisibilityMode="labeled"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/audio"
+        android:icon="@drawable/ic_baseline_audiotrack_24"
+        android:title="Audio"
+        app:labelVisibilityMode="labeled"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/video"
+        android:icon="@drawable/ic_baseline_ondemand_video_24"
+        android:title="Video"
+        app:labelVisibilityMode="labeled"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/gallery"
+        android:icon="@drawable/ic_baseline_image_24"
+        android:title="Gallery"
+        app:labelVisibilityMode="labeled"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/playlist"
+        android:icon="@drawable/ic_baseline_playlist_play_24"
+        android:title="My Playlist"
+        app:labelVisibilityMode="labeled"
+        app:showAsAction="always" />
+</menu>
